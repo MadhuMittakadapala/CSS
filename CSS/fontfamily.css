@@ -1,0 +1,90 @@
+
+/* font size and font family */
+/* font stack and font generic-family= serif, sans-serif,   cursive, fantasy, monospace */
+
+/* #heading{
+    font-family: 'Courier New', Courier, monospace;
+    /* here courier new, courier, monospace are called font stack */
+    /* monospace is called generic family */
+/* }
+.para{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* here sams-serif is called generic family */
+/* } */ 
+
+
+/* GOOGLE FONTS */
+/* HERE IMPORT GOOGLE FONTS LINK ADD SECOND WAY */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@500&display=swap');
+
+/* adding google fonts  */
+#heading{
+    font-family: 'Bungee Spice', cursive;
+}
+.para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+
+}
+
+
+/* font weight and fontstle and text alingn and text indent */
+
+
+
+.mainheading{
+    text-align: center;
+    color: brown;
+}
+.subheading{
+    text-align: center;
+    color: red
+    ;
+}
+.one
+{
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+    text-align: right;
+}
+.two
+{
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+}
+.three{
+    font-size: 45px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: end;
+}
+.textindent{
+    text-indent: 50px;
+}
+
+/* line height - line to line space */ 
+/* letter spacing  -letter space between one word*/
+/* word spacing */
+/* text transoform */
+/* text decoration */
+.lineheight{
+    line-height: 2.5em;
+}
+.letterspacing{
+    letter-spacing: 15px;
+}
+.wordspacing{
+    word-spacing: 15px;
+}
+.texttransform{
+    text-transform: uppercase;
+}
+.textdecoration{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+/* here about min-width,max-width and min-height , max-height */
+
+
+
+/* max-width */
+#par1, #par2{
+    color: red;
+    background: green;
+    max-width: 500px;
+
+}
+
+/* min-width */
+.para{
+    color: blue;
+    background: black;
+    min-width: 100px;
+}
+
+/* max-height */
+.para1{
+    color: green;
+    background: red;
+    max-height: 200px;
+}
+/* min-height */
+.para3{
+    color: rebeccapurple;
+    background: red;
+    min-height: 100px;
+}

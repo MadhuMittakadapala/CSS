@@ -1,0 +1,7 @@
+{
+  "json.schemas": [],
+  "editor.tokenColorCustomizations": {
+    "comments": "#29980a"
+  },
+  "liveServer.settings.port": 5501
+}

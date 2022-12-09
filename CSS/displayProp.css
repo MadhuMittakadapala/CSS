@@ -1,0 +1,23 @@
+h1{
+    background: orangered;
+    color: white;
+    padding: 20px;
+}
+.visibility{
+    visibility: hidden;
+    /* element not visible but do not deleted*/
+}
+.display-none{
+    display: none;
+    /* hereit is element deleted  */
+}
+.opacity-1{
+    opacity: 1;
+}
+.opacity-0{
+    opacity: 0;
+}
+.opacity-half{
+    opacity: .5;
+
+}

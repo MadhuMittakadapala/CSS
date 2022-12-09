@@ -1,0 +1,71 @@
+/* there are different types of selectors in css 
+    element selectors
+    group selectors
+    id selectors
+    class selectors
+    combinator selectors
+    atrribute selectors
+*/
+
+/*  this is element selectors */
+/* h1{
+    color: coral;
+    font-size: 47px;
+}
+h2{
+    color: green;
+    font-size: 56px;
+}
+p{
+    color: blue;
+    font-size: 24px;
+} */
+
+/* using group selectors */
+body{
+    color: red;
+    background-color: chocolate;
+}
+/* h1, h2, p{
+    color: blue;
+    font-size: 48px;
+} */
+
+/* difference between div and span */
+div p{
+    color: brown;
+    background: lightblue;
+}
+span{
+    color: green;
+    text-transform: uppercase;
+}
+body{
+    background: lightblue;
+}
+
+/* class and id selectors */
+#paragraph2{
+    color: grey;
+    font-weight: bold;
+    font-size: 36px;
+}
+#paragraph3{
+    color: green;
+    font-size: 48px;
+    background: red;
+}
+.paragraph{
+    color: black;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.red{
+    color: red;
+    background: black;
+
+}
+.green{
+    color:green;
+    background: white;
+}

@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p::before{
+    content: "Starting ";
+    font-weight: bold;
+    color: red;
+    font-size: 2rem;
+}
+p::after{
+    content: " Ending";
+    /* pseudo elements should have to write content property  if no content property no display it in browser page*/
+    /* content property you mention empty mandatary like content: ""  */
+    font-weight: bold;
+    color: red;
+    font-size: 2rem;
+}
+div{
+    width: 60vw;
+    height: 30vh;
+    margin: 10px auto;
+    border: 5px solid grey;
+    position: relative;
+    
+}
+img{
+    width: 100%;
+ 
+    display: block;
+    /* ::after and ::before are does not work for images */
+}
+div::before{
+    content: "";
+    border: 2px solid green;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* box-sizing: border-box; */
+    top: -60px;
+    left: -60px;
+    z-index: -2;
+    transition: all 0.5s linear;
+
+}
+div::after{
+    content: "";
+    background: grey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* box-sizing: border-box; */
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+    transition: all 0.5s linear;
+}
+div:hover::after, div:hover::before{
+top: 0;
+left: 0;
+}
+

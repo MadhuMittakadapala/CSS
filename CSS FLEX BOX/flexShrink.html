@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flex Shrink</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row; /* by default */
+            flex-wrap: wrap;
+        }
+        .Box-1{
+            width: 200px;
+            /* flex-shrink: 1; by default flex shrink is 1 */
+            flex-shrink: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Box Box-1">Box 1</div>
+        <div class="Box Box-2">Box 2</div>
+        <div class="Box Box-3">Box 3</div>
+        <div class="Box Box-4">Box 4</div>
+        <div class="Box Box-5">Box 5</div>
+        <div class="Box Box-1">Box 6</div>
+     
+    </div>
+    
+</body>
+</html>

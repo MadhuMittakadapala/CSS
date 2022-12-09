@@ -1,0 +1,56 @@
+
+
+
+
+/* 
+descendent and child selectors */
+
+
+/* this is apply all h1 elements in div  */
+div h1{
+    color: red;
+
+}
+
+
+/* this is apply only direct child elements in div */
+div > h1{
+    color: green;
+}
+
+
+/* same as above  */
+.header h1{
+    font-size: 80px;
+}
+
+#header h1{
+    font-size: 100px;
+}
+
+
+h1{
+    color: purple;
+    text-transform: uppercase;
+}
+
+.para1{
+    color: orange;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: initial;
+    background: green;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+
+#paragraph{
+    color: blue;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: initial;
+    background: red;
+    border: 10px solid black;
+    border-radius: 5px;
+
+}

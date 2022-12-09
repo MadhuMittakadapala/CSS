@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+        /*  ALIGN ITEMS  IT IS VERTICALLY ALIGNMENT
+           ==> align-items: stretch(default);
+           ==> align-items: flex-start;
+           ==> align-items: flex-end; 
+        */
+        .container{
+            display: flex;
+            height: 60vh;
+       
+            align-items: stretch;
+            /* by default align items is stretch  */
+            align-items: flex-start;
+            /* align-items: flex-end;
+            align-items: center; */
+            align-items: baseline;
+            align-items: center;
+
+        }
+        /*  align self for each item particularly */
+        .Box-5{
+            align-self: flex-start;
+        }
+        .Box-3{
+            align-self: stretch;
+        }
+        .Box-1{
+            align-self: flex-end;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Box Box-1">Box 1 <br> align-self: flex-end</div>
+        <div class="Box Box-2">Box 2</div>
+        <div class="Box Box-3">Box 3 <br>  align-self: stretch</div>
+        <div class="Box Box-4">Box 4</div>
+        <div class="Box Box-5">Box 5 <br>align-self: flex-start</div>
+    </div>
+    
+</body>
+</html>

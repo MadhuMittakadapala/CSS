@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: rgba(160, 160, 160, 0.6);
+}
+
+
+.cells{
+    background: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid black;
+    color: white;
+}
+.cell-1{
+    background: green;
+    order: 2;
+}
+.cell-2{
+    background: red;
+    order: ;
+}.cell-3{
+    background: blue;
+}.cell-4{
+    background: orange;
+    order: 4;
+}.cell-5{
+    background: yellow;
+    order: 3;
+}.cell-6{
+    background: purple;
+    order: -1;
+}

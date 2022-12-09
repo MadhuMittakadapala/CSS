@@ -1,0 +1,23 @@
+/* descendent child selectors */
+
+
+
+/* in div every h1 property added */
+div h1{
+color: green;
+}
+
+/* div derect child h1 add properties */
+div > h1{
+    color: red;
+}
+
+/* if you want class header every h1 element added this properties */
+.header h1{
+    color: blue;
+}
+
+/*  here only class header to direct element h1 added styles */
+.header > h1{
+    color: goldenrod;
+}

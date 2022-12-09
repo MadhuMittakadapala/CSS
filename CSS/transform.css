@@ -1,0 +1,108 @@
+
+
+/*
+==>  transform: translate(), rotate(), scale(), skew()
+==>  transition: ( change over time) 
+==>  animation: (change over the time and with the points)
+ */
+
+ div{
+    width: 150px;
+    height: 150px;
+        display: inline-block;
+ }
+
+
+ /*  transform : translate */
+ .one{
+    background: orange;
+
+    /* move to right side give positive values */
+    transform: translateX(30px);
+    transform: translateY(40px);
+    /* you can write also one time */
+    transform: translate(30px, 40px);
+    /* if move left side --give negitive values */
+    transform: translate(-30px,-40px);
+
+
+
+ }
+
+
+ /* transform : scale */
+ .two{
+    background: green;
+    /* x direction  left and right resize element */
+    transform: scaleX(1.6);
+     /* y direction  top and bottom resize element */
+     transform: scaleX(1.6);
+    /* u can change direction of element using scale  */
+    /* it is takes x direction and y direction values in single value */
+    transform: scale(0.5);
+
+     
+
+ }
+
+
+ /* transform : rotate */
+ .three{
+    background: blue;
+    transform: rotateZ(45deg);
+    /* or direct rotate() is also same */
+    transform: rotate(45deg);
+ }
+
+
+ /* transform : skew */
+ .four{
+    background: grey;
+    transform: skewX(25deg);
+    /* or  */
+    transform: skewY(-25deg);
+    /* or */
+    transform: skew(25deg, -45deg);
+ }
+
+
+
+
+ /* transition : properties */
+ .transition{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+ }
+ div:hover{
+    background: black;
+ }
+ 
+
+ .one_transition{
+    background: red;
+    /* mostly we have use transition all  */
+    transition: all 4s;
+  
+ }
+ .one_transition:hover{
+    border-radius: 50%;
+ }
+
+ .two_transition{
+    background: blue;
+      /* you can write transition sharthand  */
+    /* transition: transition property transition duration transition delay(this is optional); */
+    transition: background 3s 4s, border-radius 5s 5s;
+
+ }
+ .three_transition{
+    background: green;
+    transition-property: background, border-radius;
+    transition-duration: 3s, 0.2s;
+
+
+ }
+ .three_transition:hover{
+    border-radius: 50%;
+ }

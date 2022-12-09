@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./GridAlignItems-justifyItems.css">
+
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows: repeat(2,200px);
+            justify-items: center;
+            align-items: center;
+        }
+        .cell-1{
+            justify-self: flex-start;
+            align-self: flex-start;
+        }
+        .cell-6{
+            justify-self: flex-end;
+            align-self: flex-end; 
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cells cell-1">cell 1</div>
+        <div class="cells cell-2">cell 2</div>
+        <div class="cells cell-3">cell 3</div>
+        <div class="cells cell-4">cell 4</div>
+        <div class="cells cell-5">cell 5</div>
+        <div class="cells cell-6">cell 6</div>
+    </div>
+    
+</body>
+</html>

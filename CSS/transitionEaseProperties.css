@@ -1,0 +1,46 @@
+
+
+/*  HOW THE TRANSITIONS TAKE PLACE
+TRANSITION-TIME-FUNCTION 
+TRANSITION ALL PROPERTIES 
+
+==> EASE ----DEFAULT
+==> EASE --- SLOW START , FAST, SLOW END
+==> LINEAR --- SAME SPEED START TO END
+==> EASE-IN  ---SLOW START
+==> EASE-OUT --- SLOW END
+==> EASE-IN-OUT --- SLOW START , FAST, SLOW END
+
+
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    color: white;
+    background: green;
+    border-radius: 7px;
+    text-align: center;
+    transition: all 1s;
+}
+
+div:hover{
+    transform: translateX(127px) ;
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,43 @@
+/* add templates naming */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: rgba(160, 160, 160, 0.6);
+}
+
+
+.cells{
+    background: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid black;
+    color: white;
+}
+.cell-1{
+    background: pink;
+    grid-area: a;
+}
+.cell-2{
+    background: blue;
+    grid-area: b;
+}.cell-3{
+    background: orange;
+    grid-area: c;
+}.cell-4{
+    background: green;
+    grid-area: d;
+}.cell-5{
+    background: purple;
+    grid-area: e;
+}.cell-6{
+    background: orangered;
+    grid-area: f;
+}

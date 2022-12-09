@@ -1,0 +1,111 @@
+/* css positions concept positions 
+-relative
+-static
+-absolute
+-fixed
+ */
+*{
+    margin: 0;
+    
+}
+ .container{
+    margin-top: 100px;
+    border: 3px solid black;
+    padding: 10px;
+    background: lightgray;
+ }
+
+ /* position static  */
+ /*  static position is deafault position  */
+ .positionstatic{
+    border: 15px solid red;
+    background: yellow;
+    color: white;
+    margin-top: 30px;
+    position: static;
+    /* by default all elements position is static vaues .so,  position = static no changes there */
+ }
+ .one{
+    background: blue;
+ }
+ .two{
+    background: orange;
+ }
+ .special{
+    background: greenyellow;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+
+ /* POSITION RELATIVE */
+ .positionrelative{
+    background: blue;
+    border: 15px solid red;
+    color: white;
+    position: static;
+
+
+ }
+ .relone{
+    background: black;
+    position: relative;
+    /* here u gives relative value compulsory give where it is position like right left top bottom */
+    left: 100px;
+ }
+ .reltwo{
+    background: orange;
+    position: relative;
+    right: 50%;
+ }
+ .relspecial{
+    background: greenyellow;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+
+
+ /* POSITION-ABSOLUTE */
+ .positionabsolute{
+    width: 500px;
+    height: 500px;
+    border: 15px solid red;
+    position: relative;
+    color: white;
+ }
+ .oneabs{
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    position: absolute;
+    /* here position absolute by default its takes bady position relative, so u can give relative position to parent element  */
+    right: 20px;
+    bottom: 60px;
+ }
+ .twoabs{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+  right: 30px;
+    left: 80px;
+ }
+
+ /* 
+ POSITION-FIXED --ITS USED FOR NAV BAR*/
+
+
+ button{
+    background: orange;
+    color: white;
+    padding: 10px 100px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+
+
+ }

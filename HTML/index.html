@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <h1>CSS Tutorial</h1>
+    <h2> CSS Introduction</h2>
+    <h1>What is the CSS?</h1>
+    <p>CSS stands for Cascading Style Sheet</p>
+    <p>Cascading stle sheet is the language we use for to style a webpages.CSS saves a lot of work,it can control the layout of multiple web pages all at once.</p>
+    <p>CSS handles the lok and fell part of a web pages, using css yu can control the colors of text and the style of fonts, the spacing between paragraphs , how columns are sized and laid out what background images or colors are used, layout designes,variations in display for differents devices and screen sizes.</p>
+    <br>
+    <!-- CSS ADVANTAGES -->
+    <h1>CSS(Cascading Style Sheet) Advantages</h1>
+    <p> <b> 1.CSS saves time:</b>you can write css once and there use same sheet in multiple html pages, you can define a style for each html element and apply it to as many web pages as you want.</p>
+    <p><b>2.Pages load faster:</b>if you are using css, you dont need to write html tag attributes every time,just write one cssrule of tag and apply it to all the occurances of that tag,so less code means faster download times.</p>
+    <p><b>3.Easy maintenance:</b>to make a global change, simply change the style and all elements in all the web pages will be updated automatically.</p>
+    <p><b>4.Superior styles to HTML:</b>CSS has a much wider arrays of the attributes than html,so you can give a far better look to html pages in comparison to html attributes.</p>
+    <p><b>5.Multiple device compatibility:</b>style sheests allows contact to be optimized for more than one type of device.By using the same html document,different versions of website can be presented for handled devices such  as PDAS and cellphones or printing.</p>
+    <p><b>6.Global web standards:</b>now html attributes are being deprecated and it is being recommended to use css.so its a good idia to start using  css. all the html pages to make them compatible to future browsers.</p>
+    <br>
+    <br>
+    <br>
+    <!-- CSS SYNTAX -->
+    <h1>CSS syntax:</h1>
+    <h1>A CSS comprises of style rules that are interpreted by the browseer and them applied to the corresponding elements in document.</h1>
+    <h2>Selector { property : value }</h2>
+    <h3>example:</h3>
+    <h2>table { border : 1px solid #coo;}</h2>
+    <br>
+    <br>
+    <br>
+    <!-- CSS SELECTORS -->
+    <h1>CSS Selectors:</h1>
+    <h3>CSS selector selects the html elements you want to style.</h3>
+    <h4>we can divide css selectors into 5 categories:</h4>
+    <h3>1.Simple selectors (select elements based on name and id and class.)</h3>
+    <h3>2.Combinator selectors</h3>
+    <h3>3.Pseudo-class selectors</h3>
+    <h3>4.Pseudo-elements selectors</h3>
+    <h3>5.Attribute selectors</h3>
+    <br><br>
+    <h1>HOW TO ADD CSS TO HTML DOCUMENTS</h1>
+    <p>when a browser reads a style sheet,it will format the HTML document according to the information in the style sheet. </p>
+    <p>there are 3 ways to insert css in html document :</p>
+    <h3>1. Inline CSS</h3>
+    <h3>2. Internal CSS</h3>
+    <h3>3. External CSS</h3>
+    <br>
+    <p><b>1.inline css:</b>  an inline css may be used to apply a unique style for a single element. To use inline css, add the style attribute to the relavent element. the style attributecan contain any css property.</p>
+    
+    <p><b>2.internal css:</b>an internal css style sheet may be used if one single html page has a unique style. The internal style is defined inside the 'style' element, inside the head section.</p>
+    <p><b>3.External css:</b>with an external css you can change the look of an entire website by changing with just one file. Each html page must include a reference to the external style sheet file inside 'link'element, inside the head section.</p>
+    <p>an external style sheet can be written in any text editor,and must be saved with a .css extension.</p>
+    <p>the external css file should not contain any html tags.</p>
+    <h3>NOTE:</h3>
+    <P>DO NOT ADD A SPACE BETWEEN THE PROPERTY VALUE AND THE UNIT.</P>
+     <P>INCORRECT(SPACE)--> margin-left:20  px;</P>
+     <p>CORRECT(NO SPACE)--> margin-left: 20px;</p>
+     <p><b>multiple style sheets:</b></p>
+     <p>if some properties have been defined for the same selector or element is different stylesheet , the value from the last red style will be used. </p>
+     <p>Assume that external style sheet has the following style for the h1 element.</p>
+     <p>h1{ color : navy; }</p>
+     <p>then assume that internal style sheet also has the following style for the h1 element.</p>
+     <p>h1{ color : Orange; }</p> 
+
+     <!-- here difference between div and span -->
+     <div>
+        <h1>this is div for heading</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus totam impedit dolore non quasi numquam. Nam itaque debitis assumenda officiis molestiae laudantium at corporis voluptas praesentium ipsa!</p>
+        <h2>this is another heading </h2>
+     </div>
+     <br>
+     <p>Lorem ipsum dolor sit, <span>consectetur adipisicing</span>amet  elit. Alias doloremque sit rem architecto optio, iure accusamus consequatur quaerat at dolores sint nisi! Iste vel perferendis dolorum nisi mollitia! Laudantium tempora perspiciatis sunt rem pariatur sit molestias.</p>
+
+    
+</body>
+</html>

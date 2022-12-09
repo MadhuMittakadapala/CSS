@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Grid layout</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- innternal style css -->
+    <style>
+        .container{
+            display: grid;
+            /* this grid template columnns used for how many columns u want */
+            /*  units ==> rem, em, % , px */
+            /*  units ==> fr = fraction of available space*/
+            grid-template-columns: 200px 30rem 1fr;
+            /* grid-template-columns: 2fr 1fr; */
+            grid-template-rows: 150px 100px 150px;
+            /* grid-template-rows: 3fr 1fr 1fr 1fr; */
+
+
+            /* GAP= old syntax properties */
+            grid-row-gap: 20px;
+            grid-column-gap: 15px;
+            /* u can use singe property grid-gap: 30px for rows and columns */
+            grid-gap: 40px;
+            /* or  */
+            grid-gap: 20px 30px;
+
+            /* GAP= new syntax properties */
+            row-gap: 30px;
+            column-gap: 20px;
+            gap: 50px;
+            gap: 20px 40px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1> CSS Grid :</h1>
+    <div class="container">
+        <div class="cells cell-1"> cell 1</div>
+        <div class="cells cell-2">cell 2</div>
+        <div class="cells cell-3">cell 3</div>
+        <div class="cells cell-4">cell 4</div>
+        <div class="cells cell-5">cell 5</div>
+        <div class="cells cell-6">cell 6</div>
+        <div class="cells cell-7">cell 7</div>
+
+    </div>
+    
+</body>
+</html>

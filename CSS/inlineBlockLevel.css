@@ -1,0 +1,29 @@
+/*INLINE AND BLOCK LEVEL ELEMENTS 
+ */
+
+ /* EVERY HTML ELEMENTS HAS A DEFAULT DISPLAY VALUE DEPENDING ON WHAT TYPE OF ELEMENT IT IS */
+ /* THE DAFAULT DISPLAY VALUE FOR MOST ELEMENT IS BLOCK AND INLINE */
+
+ .block{
+    background: green;
+    color: white;
+    /* here you can covert into inline element for that use display: inline property */
+    /* display: inline; */
+     /* for horizontal center */
+     width: 200px;
+     margin: 20px auto;
+
+ }
+ .inline{
+    background: purple;
+    color: white;
+    /* here you can convert into block level element for that override display :block */
+    /* display: block; */
+   
+
+ }
+
+ /* HORIZONTAL CENTERING */
+ body{
+    text-align: center;
+ }

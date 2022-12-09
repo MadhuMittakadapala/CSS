@@ -1,0 +1,59 @@
+/*  varibles  
+==> Global scope varibles
+==> local scope variables
+ :root element is a globally
+
+
+*/
+
+/*  global variables create */
+:root{
+
+    /* for colors */
+    --primaryColor: #e8a616;
+    --secondaryColor: #138ca1;
+    /* for transitions */
+    --mainTransition: all .4s linear;
+    --mainFontSize: 48px
+
+          
+    
+}
+
+.firstHeading{
+    color: var(--primaryColor);
+}
+.firstHeading:hover{
+    color: var(--secondaryColor);
+    transition: var(--mainTransition);
+}
+.secondHeading{
+    color: var(--primaryColor);
+}
+.secondHeading:hover{
+    color: var(--secondaryColor);
+    transition: var(--mainTransition);
+}
+
+.thirdHeading{
+    color: var(--primaryColor);
+    
+    
+}
+.thirdHeading:hover{
+    color: var(--secondaryColor);
+    transition: var(--mainTransition);
+}
+.firstPara{
+    color: var(--primaryColor);
+    font-size: var(--mainFontSize);
+}
+/* local scope */
+.mainDiv{
+    --primaryColorLocal: purple;
+    --LocalFontSize: 42px;
+}
+.mainText{
+    color: var(--primaryColorLocal);
+    font-size: var(--LocalFontSize);
+}

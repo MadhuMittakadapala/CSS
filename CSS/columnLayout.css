@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    color: white;
+    float: left;
+    height: 400px;
+    width: 33.333%;
+    /* if you want four column give 25% tttal wdth =100%/ how many columns */
+
+}
+.one{
+    background: red;
+   
+    
+}
+.two{
+    background: green;
+
+}
+.three{
+    background: blue;
+}
+h1{
+    clear: both;
+    /*  here clear givs this element starts a new line */
+}

@@ -1,0 +1,145 @@
+
+/* ABOUT BOX MODEL */
+/*  padding and margin and border  */
+
+
+
+/* padding */
+.para1{
+    background: red;
+    color: white;
+
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    /*  padding-top=50px, padding-right=100px, padding-bottom=60px, padding-left=100px */
+}
+.para2{
+    background: blue;
+    color: white;
+    padding: 50px 200px;
+    /* here padding top ,bottom= 50px and left,right = 200px */
+}
+
+.para3{
+    background: green;
+    color: white;
+    padding: 100px;
+    /* here padding all sides are same top right bottom left = 100px */
+}
+.para4{
+    background: rgb(43, 55, 122);
+    color: white;
+    padding: 20px 60px 80px 200px;
+    /* here padding top = 20px, right=60px, bottom=80px, left=100px */
+}
+
+/* margin */
+.para5{
+    background: orangered;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    /* margin-top=30px, margin-right=60px, margin-bottom=80px, margin-left=100px */
+}
+.para6{
+    background: purple;
+    color: white;
+    padding: 20px;
+    margin: 50px 100px;
+    /* margin top+right= 50px and margin bottom+left= 100px */
+    /* if you want all sides margin same margin=100px */
+    /* margin: 100px */
+    /* and you can give four values one time   margin: 20px 30px 40px 60px*/
+
+}
+
+/* here no margin-bottom and no margin-top */
+.para7{
+    background: orange;
+    color: white;
+    padding: 100px;
+    margin-bottom: 0px;
+}
+.para8{
+    background: purple;
+    color: white;
+    padding: 100px;
+    margin-top: 0px;
+}
+
+
+/* border */
+
+.para9{
+    background: blue;
+    color: white;
+    padding: 20px;
+    /* border properties */
+    border-style: solid;
+    border-color: brown;
+    border-width: 17px;
+}
+.para10{
+    background: orangered;
+    color: white;
+    padding: 20px;
+    border: 20px solid blue;
+    /* this border is not mandatary  you can write different order also.*/
+    /* like border: blue solid 33px */
+}
+
+/* you can write four sides different borders */
+.para11{
+    background: green;
+    color: white;
+    padding: 100px;
+    border-top: 20px solid red;
+    border-right: purple 20px dotted;
+    border-bottom: 10px blue dashed;
+    border-left: 20px solid black;
+
+}
+
+/* border radius */
+.radiusheading{
+    background: blue;
+    color: white;
+    padding: 30px;
+    border: 30px solid red;
+    border-radius: 30px;
+
+}
+
+/*  outline and outline-offset */
+
+.buttons{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+a{
+    margin: 1rem;
+    padding: 0.7em 1.5em;
+    background: orangered;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.btnone{
+    border: 10px solid black;
+}
+.btntwo{
+    padding: 3rem;
+    outline-width: 3px;
+    outline-color: black;
+    outline-style: solid;
+    /* this is inside outline */
+    outline-offset: -10px;
+    /* this is outside outline */
+    /* outline-offset: 10px  */
+}

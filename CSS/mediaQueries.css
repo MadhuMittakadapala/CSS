@@ -1,0 +1,64 @@
+/* media queries are responsive */
+/*  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: yellow;
+}
+#heading{
+    background: orangered;
+}
+.para1{
+    background: blue;
+    color: white;
+    border:1px solid black;
+    margin-top: 20px;
+}
+
+/* use media queries for responsive screen design */
+
+@media screen and (min-width:567px){
+    body{
+        background: orangered;
+        text-align: center;
+        color: white;
+    }
+    #heading{
+        background: yellow;
+        color: purple;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    .para1{
+        background: green;
+        color: red;
+        font-family: cambria;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:788px){
+    body{
+        background: blue;
+        color: red;
+
+    }
+    #heading{
+        background: white;
+        color: peru;
+        font-size: 45px;
+        font-family: Gill Sans;
+        text-align: right;
+    }
+    .para1{
+        background: green;
+        color: aqua;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Georgia;
+    }
+}

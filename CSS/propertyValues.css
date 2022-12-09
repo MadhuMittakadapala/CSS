@@ -1,0 +1,69 @@
+/* about Percentage values - RELATIVE -it is depend on the parent values*/
+.outer{
+    width: 500px;
+    height: 400px;
+    background: red;
+    
+}
+.inner{
+    
+    width: 50%;
+    height: 50%;
+    background: blue;
+}
+
+/* 1em=16px default browser styles or depends on the parent element value
+ 1em = base value */
+
+ div{
+    font-size: 30px;
+ }
+
+
+ .relative{
+    font-size: 2em;  
+    /* this em value depends on the parent element of div value */
+    /* 2em*30px = 60px */
+    /* 2*16px= 32px */
+    /* 2*10px=20px */
+    color: rgb(36, 36, 144);
+ }
+ .absolute{
+    font-size: 32px;
+    color: rgb(36, 36, 144);
+ }
+
+ /* here it is rem values */
+ /* rem also relative and depends on the root element 
+    1rem = 16px  it is depends on the default browser style.
+ */
+
+ /* here html tag is root element  */
+ html{
+   font-size: 10px;
+ }
+ .relativeValue{
+   font-size: 2rem;
+   /*  2*10px = 20px */
+   /* 1.75*10px = 17.5px */
+ }
+ .absoluteValue{
+   font-size: 32px;
+ }
+
+
+ /*  vh and vw values are very important 
+     vh- view height - percent of the screen depends on the screen size
+     vw- view width - percent of the screen depemds on the screen size
+ */
+ .banner{
+   width: 50vw;
+   height: 50vh;
+   background: blue;
+ }
+ .header{
+   width: 100vw;
+   height: 100vh;
+   background: orangered;
+ }
+ 

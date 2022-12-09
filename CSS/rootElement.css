@@ -1,0 +1,28 @@
+
+
+
+/* 
+about root element */
+
+:root{
+    background: yellow;
+    /* by default font sixe is 16px */
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    /* here 3rem ==> 3*16px= 48px */
+
+}
+
+.absolute{
+    color: red;
+    font-size: 24px;
+}
+
+.relative{
+    font-size: 1.5rem;
+    /* here 1.5rem ==> 1.5*16px =24px */
+    /* by default root element font size is 16px so its takes 1.5*16=24px */
+}

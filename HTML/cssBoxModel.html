@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Box Model</title>
+
+    <!-- css external  -->
+    <link rel="stylesheet" href="./CSS/cssBoxModel.css">
+
+    <!-- inline css -->
+    <style>
+        .main{
+            font-size: 40px;
+            font-weight: bold;
+            margin: 40px;
+        }
+
+        .content{
+            margin-left: 40px;
+            border: 50px solid #f6b555;
+            width: 500px;
+            height: 400px;
+            text-align: center;
+            padding: 50px;
+            align-items: center;
+        }
+
+        .con1{
+            font-size: 42px;
+            font-weight: bold;
+            color: #f8850a;
+            margin-top: 40px;
+            background-color: aqua;
+
+        }
+        .con2{
+            font-size: 18px;
+            font-weight: bold;
+            color: coral;
+            margin-top: 40px;
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">CSS Box Model Property</div>
+    <div class="content" align="center">
+        <div class="con1">Simplilearn</div>
+        <div class="con2">World no1 online certification course provider</div>
+    </div>
+     <br><br><br>
+    <!-- here about padding and margin and border -->
+    <h1> CSS Box Model:</h1>
+    <div>
+        <h1>Padding:</h1>
+        <p class="para1"><b>padding-top=50px, padding-right=100px, padding-bottom=60px, padding-left=100px</b><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facilis voluptates dolores ipsam deleniti nesciunt, ducimus deserunt excepturi dolorem esse et eligendi. Sint optio quaerat dolores!</p>
+        <p class="para2"><b>padding top ,bottom= 50px and left,right = 200px</b><br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam necessitatibus deserunt iste, laborum ipsum suscipit voluptatem dolorum perspiciatis quo dolore expedita sed autem, asperiores rem omnis ipsam.</p>
+        <p class="para3"><b> padding all sides are same top right bottom left = 100px </b><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda culpa earum, ea officiis optio nam ab dicta laborum voluptatum, reprehenderit rerum placeat totam fugit quaerat magnam voluptatibus, voluptas voluptatem non.</p>
+        <p class="para4"><b>padding top = 20px, right=60px, bottom=80px, left=100px</b><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis eius, impedit obcaecati modi, sunt nam beatae enim ipsa adipisci molestiae?</p>
+        
+    </div>
+    <br><br>
+    <div> 
+        <h1>Margin:</h1>
+        <p class="para5"><b>margin-top=30px, margin-right=60px, margin-bottom=80px, margin-left=100px <br> padding=20px </b><br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis possimus nemo maxime eligendi placeat soluta esse architecto eum veritatis.</p>
+        <p class="para6"><b>margin top+right= 50px and margin bottom+left= 100px <br>padding= 20px</b><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt quaerat officiis tempora sunt fuga sint voluptates rerum amet architecto aperiam nihil veniam dolore quod placeat similique, veritatis magnam facere!</p>
+
+
+
+    </div>
+    <div>
+        <p class="para7"><b>margin-bottom=0px and pading=100px</b> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem voluptas doloribus corporis itaque voluptates hic iste ex tempore aliquid.</p>
+        
+        <p class="para8"><b>margin-top=0px and padding=100px</b> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore porro reiciendis corrupti molestiae excepturi quos eius velit eum est necessitatibus.</p>
+    </div>
+
+    <div>
+        <h1>Border:</h1>
+        <p class="para9"><b>padding=20px, border-style= solid , margin-width= 17px, margi-color=brown</b> <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio molestias veniam quaerat iure perspiciatis obcaecati officiis harum.</p>
+
+        <p class="para10"> <b>border= width=20px, style=solid, color=blue. and padding=20px</b> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quibusdam quasi voluptates corporis quidem amet, velit nam voluptate omnis unde!</p>
+    </div>
+    <div>
+        <p class="para11"><b>you can give four sides different border styles</b><br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, magnam?</p>
+    </div>
+    <br><br>
+    <div>
+        <h1>Border Radius:</h1>
+        <h1 class="radiusheading"> <b>border radius = 30px and padding = 30px</b> <br> this is radius border</h1>
+    </div>
+
+    <br><br>
+    <h1>outline and offset</h1>
+    <h2>diffferent between border and outline</h2>
+    <div>
+        <div class="buttons">
+            <a href="#" class="btnone"> Bordered Button</a>
+            <a href="#" class="btntwo"> Outline Button</a>
+        </div>
+    </div>
+  
+
+    
+</body>
+</html>

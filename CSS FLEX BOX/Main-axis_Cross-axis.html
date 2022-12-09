@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Main axis and Cross axis</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+        /* main axis and cross axis 
+          */
+        .container-1{
+            display: flex;
+            border: 7px solid red;
+            height: 60vh;
+            flex-direction: row; /* by default*/
+            justify-content: center;  /* horizontal align center */
+            align-items: center;     /* verticallly align center */
+        }
+        .container-2{
+            display: flex;
+            height: 800px;
+            border: 7px solid blue;
+            flex-direction: column;
+            justify-content: center;  /* vertically align center */
+            align-items: center;      /* horizontally align center */
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container-1">
+        <Box class="Box-1">Box 1</Box>
+        <Box class="Box-2">Box 2</Box>
+        <Box class="Box-3">Box 3</Box>
+        <Box class="Box-4">Box 4</Box>
+        <Box class="Box-5">Box 5</Box>
+        <Box class="Box-6">Box 6</Box>
+    </div>
+    <div class="container-2">
+        <Box class="Box-1">Box 1</Box>
+        <Box class="Box-2">Box 2</Box>
+        <Box class="Box-3">Box 3</Box>
+        <Box class="Box-4">Box 4</Box>
+        <Box class="Box-5">Box 5</Box>
+        <Box class="Box-6">Box 6</Box>
+    </div>
+    
+</body>
+</html>

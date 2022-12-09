@@ -1,0 +1,46 @@
+/* 
+TEXT SHADOW
+BOX SHADOW
+*/
+
+
+/* TEXT SHADOW IT HAS FOUR PROPERTIES */
+/* TEXT-SHADOW: X-AXIS Y-AXIS BLUR  COLOR */
+
+h1 {
+color: purple;
+font-size: 3.5rem;
+text-align: center;
+text-transform: uppercase;
+/* text-shadow: 2px .2rem 10px blue; */
+text-shadow: 3px 5px 7px rgba(128, 128, 128, 0.769);
+}
+
+
+/* BOX SHADOW */
+/* BOX-SHADOW: X-AXIS Y-AXIS BLUR spread radius(optional) COLOR */
+
+.box{
+    width: 300px;
+    height: 100px;
+    background: purple;
+    border-radius: 15px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    /* box-shadow: 3px 5px 7px grey; */
+}
+
+.box:hover{
+    /* box-shadow: 3px 5px 7px grey; */
+
+    /* use box shadow generator in chrome */
+    /* -webkit-box-shadow: 9px 10px 5px 3px rgba(140,140,140,1);
+    -moz-box-shadow: 9px 10px 5px 3px rgba(140,140,140,1);
+     box-shadow: 9px 10px 5px 3px rgba(140,140,140,1); */
+
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}

@@ -1,0 +1,62 @@
+
+/* use rgb color values  */
+#one{
+    color: rgb(255, 0, 0);
+    background: rgb(36, 56, 148);
+}
+#two{
+    color: rgb(56, 88, 197);
+    background: rgb(255, 226, 232);
+}
+#three{
+    color: rgb(166, 37, 65);
+    background: rgb(17, 12, 36);
+}
+#four{
+    color: rgb(134, 14, 255);
+    background-color: rgb(12, 255,77);
+}
+#five{
+    color: rgb(18, 45,188);
+    background: rgb(222, 245, 198);
+}
+
+/* this is using rgba values */
+.headings{
+    color: rgba(243, 52, 56, 0.9);
+    background: rgba(56, 184, 87, 0.4) ;
+}
+#para1{
+    color: rgba(34, 45, 166, 0.4);
+    background: rgba(255, 56, 32, 0.9);
+}
+#para2{
+    color: rgba(255, 45, 77, 0.9);
+    background: rgba(43, 34, 89, 0.3);
+}
+#para3{
+    color: rgba(25, 24, 233, 0.9);
+    background: rgba(136, 16, 56, 0.2);
+}
+
+/* here  HEX values #RRGGBB */
+/* 123456789  AND  A-10, B-11, C-13, D-13, E-14, F-15 
+ FOR EXAPL;E RED- #FF0000
+             GREEN-00FF00
+*/
+#par1{
+    color: #ff0000;
+    font-size: 24px;
+    font-family: Arial Narrow;
+    font-weight: bold;
+}
+#par2{
+    color: #B34041;
+    font-size: 24px;
+    font-weight: bold;
+}
+#par3{
+    color: #0000ff;
+    font-size: 24px;
+    font-weight: bold;
+}

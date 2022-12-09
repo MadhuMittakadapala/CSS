@@ -1,0 +1,89 @@
+
+
+/*  transitions == 0 to 100%
+    animations == 0 1% 2% 3% 4%.....100%
+*/
+
+
+/* transition */
+
+div{
+   width: 200px;
+   height: 100px;
+   color: white;
+   border-radius: 10px;
+   text-align: center;
+   margin: 20px 0px;
+}
+
+/* this transitions */
+
+.transitions{
+    background: green;
+    transition: all 1s linear;
+}
+.transitions:hover{
+    background: orangered;
+    transform: translateX(250px);
+
+}
+
+
+
+/*  animations */
+
+.animations{
+    background: red;
+    animation-name: movingAnimations;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    /* u can write shorthand==> animation: animation-name  animation-duration animation-iteration-count */
+    animation: movingAnimations 15s 3;
+}
+
+/* for animations u can use keyframes keyword */
+@keyframes movingAnimations {
+    0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(800px);
+        background: purple;
+    }
+    75%{
+        transform: translateX(-300px);
+        background: yellow;
+    }
+    100%{
+        transform: translateX(20px);
+        background: blue;
+    }
+}
+
+.animationFillMode{
+    background: purple;
+    animation: animationFillMode 15s 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationFillMode {
+    0%{
+     
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(300px);
+        opacity: .25;
+      
+    }
+    50%{
+        transform: translateX(-250px);
+        opacity: 1;
+
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 0.5;
+      
+    }
+}

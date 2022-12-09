@@ -1,0 +1,35 @@
+
+
+/* gradiant + background images  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+.banner{
+    background: url("../images/img4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background: linear-gradient( rgba(223, 214, 214, 0.1),rgba(189, 177, 177, 0.6)),url("../images/img4.jpg");
+}
